@@ -1,0 +1,48 @@
+body{
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgb(207, 0, 0), rgb(223, 189, 0), rgb(0, 104, 0));
+}
+#main{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+@font-face {
+    font-family: 'JP';
+    font-style: normal;
+    src: local('Jurassic Park'), url('https://fonts.cdnfonts.com/s/13649/Jurassic Park.woff') format('woff');
+}
+h2{
+    font-family: JP;
+    font-size: 80pt;
+    font-weight: lighter;
+    margin: -20px;
+}
+#settings{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#settings img{
+    border:2px ridge darkslategrey;
+    height: 120px;
+    width: 120px;
+ }
+#settings table {
+   display:inline-block;
+   text-align:left;
+   font-size: 14pt;
+}
+
+hr{
+    color:darkslategrey;
+}
+canvas{
+    display:block;
+}
+section{
+    display: inline-block;
+    margin:20px 35px 0 35px;
+}
+
